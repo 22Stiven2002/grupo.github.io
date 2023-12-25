@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #0f198d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.member-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.tab-container {
+    margin-top: 10px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+
+.tab:hover {
+    background-color: #555;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .tab {
+    background-color: #555;
+}
+
+input[type="checkbox"]:checked + .tab + .tab-content {
+    display: block;
+}
+
+.active-tab {
+    display: block;
+}

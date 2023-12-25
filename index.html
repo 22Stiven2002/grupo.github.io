@@ -1,8 +1,47 @@
-<html>
-    <head>
-        <title>Blog</title>
-    </head>
-    <body>
-        <p1>Blog informativo</p1>
-    </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Téncica de Cotopaxi</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+
+    <header>
+        <h1>Universidad Téncica de Cotopaxi</h1>
+        <h2>Equipo de trabajo</h2>
+        <p>Conoce a nuestro miembros del equipo</p>
+    </header>
+
+    <section>
+        <!-- Integrante 1 -->
+        <div class="member-card">
+            <h2>Integrante 1</h2>
+            <div class="tab-container">
+                <input type="checkbox" id="tab1">
+                <label class="tab" for="tab1">Biografía</label>
+                <div id="bio1" class="tab-content active-tab">
+                    <p>Descripción del integrante 1.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Integrante 2 -->
+        <div class="member-card">
+            <h2>Integrante 2</h2>
+            <div class="tab-container">
+                <input type="checkbox" id="tab2">
+                <label class="tab" for="tab2">Biografía</label>
+                <div id="bio2" class="tab-content">
+                    <p>Descripción del integrante 2.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repite el patrón para los demás integrantes -->
+
+    </section>
+
+</body>
 </html>
