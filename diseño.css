@@ -10,6 +10,22 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    overflow: hidden;
+}
+
+.logo-container {
+    float: left;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.header-content {
+    float: left;
+    margin-left: 200px;
 }
 
 section {
@@ -25,46 +41,32 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     padding: 20px;
-    width: 300px;
-}
-
-.tab-container {
-    margin-top: 10px;
-}
-
-.tab {
-    cursor: pointer;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    outline: none;
-    transition: background-color 0.3s;
-    display: inline-block;
-}
-
-.tab:hover {
-    background-color: #555;
+    height: 200px;
+    width: calc(50% - 40px);
+    max-width: 400px;
+    text-align: center;
+    position: relative;
 }
 
 .tab-content {
-    display: none;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
-input[type="checkbox"] {
-    display: none;
+.biografia-container {
+    margin-top: 50px;
 }
 
-input[type="checkbox"]:checked + .tab {
-    background-color: #555;
+.biografia-button {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-input[type="checkbox"]:checked + .tab + .tab-content {
-    display: block;
-}
-
-.active-tab {
-    display: block;
+.biografia-button:hover {
+    background-color: #FF0000;
 }
