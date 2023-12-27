@@ -23,6 +23,11 @@ header {
     height: auto;
 }
 
+.foto {
+    width: 200px;
+    height: auto;
+}
+
 .header-content {
     float: left;
     margin-left: 200px;
@@ -69,4 +74,36 @@ section {
 
 .biografia-button:hover {
     background-color: #FF0000;
+}
+
+.boton_principal{
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton_principal:hover {
+    background-color: #FF0000;
+}
+.main-content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    
+    padding: 20px;
+    height: 2000px;
+    width: 1000px;
+    
+    text-align: center;
+    position: relative;
+}
+.texto{
+    padding-left: 60px;
+    padding-right: 60px;
 }
