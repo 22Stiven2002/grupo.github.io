@@ -107,3 +107,29 @@ section {
     padding-left: 60px;
     padding-right: 60px;
 }
+.descripcion_int1{
+    background-color: #fffce8;
+    
+    box-shadow: 0 0px 20px 10px rgba(0, 0, 0, 0.982);
+    margin: 0 auto;
+    
+    padding: 20px;
+    height: 900px;
+    width: 1000px;
+    
+    text-align: center;
+    position: relative;
+}
+.textoAnimado {
+    position: relative;
+    animation: moverDerecha 3s infinite alternate;
+    color: #FF0000;
+}
+@keyframes moverDerecha {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 300px;
+    }
+}
